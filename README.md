@@ -72,7 +72,6 @@ Application will run by default on port `8080`
 
 We appreciate feedback and contribution to this repo! Before you get started, please see the following:
 
-- [General contribution guidelines](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/GENERAL-CONTRIBUTING.md)
 - [Code of conduct guidelines](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/CODE-OF-CONDUCT.md)
 - [Contribution guide](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/CONTRIBUTING.md)
 

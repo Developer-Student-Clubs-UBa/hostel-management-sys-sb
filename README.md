@@ -24,7 +24,6 @@ Search-replace the org/repo in the badge images and links below.
 
 Make sure this is updated based on the sections included:
 
-- [Documentation](#documentation)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
@@ -32,6 +31,7 @@ Make sure this is updated based on the sections included:
 - [Vulnerability Reporting](#vulnerability-reporting)
 - [License](#license)
 
+<!--
 ## Documentation
 
 This section should describe the documentation contained within this repo as well as links to other helpful pages. Full documentation for the library should not, ideally, be located in the repo README and must not be duplicated from somewhere else. If the README is being updated to adhere to these guidelines and the documentation only exists in the readme, consider moving it to a docs page or a Quickstart.
@@ -45,6 +45,8 @@ Consider adding:
 - Links to [Auth0 blog posts](https://auth0.com/blog/tech/)
 - Links to any helpful supporting information about the project
 - Links to relevant Community posts (consider parsing and adding somewhere more easily accessible)
+-->
+
 
 ## Installation
 

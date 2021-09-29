@@ -6,7 +6,9 @@ The system stores hostel information such as rooms, residents, prices. It is mea
   - Built using Java (Spring boot) and thymeleaf on the JRE (Java Runtime Environment).
   - This repo is currently maintained by the GDSC-UBa Core Team
 
+<!--
 Search-replace the org/repo in the badge images and links below.
+
 
 **Note:** See individual language directories in this repo for technology-specific badges. 
 
@@ -16,6 +18,7 @@ Search-replace the org/repo in the badge images and links below.
 [![Coveralls](https://coveralls.io/repos/auth0/open-source-template/badge.svg?branch=master)](https://coveralls.io/r/auth0/open-source-template?branch=master)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/auth0/open-source-template.svg)](https://codeclimate.com/github/auth0/open-source-template)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
+-->
 
 ## Table of Contents
 
@@ -49,77 +52,43 @@ Consider adding:
 
 This section should outline what is required to install and configure this project. Consider adding:
 
-- Prerequisites for use
-- Command line instructions using `bash` syntax:
-
+### Prerequisites for use
+- LTS version of JDK: [Java 8 SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- Apache Maven build automation tool: [Maven](https://maven.apache.org/download.cgi)
+- Relation DBMS (eg. MySQL, PostgreSQL etc)
+### Run Local
 ```bash
-npm install
-composer install
+$ mvn spring-boot:run
 ```
-
-- Links to information about package manager used
-- Information about `.env` values needed (include an `example.env` file)
-- Include different ways to install, indicate preferred method
-- Include instructions on how to install older versions
+Application will run by default on port `8080`
 
 ## Getting Started
 
-This section should include basic usage instructions that can be successfully completed after [Installation](#installation) above. This section should be a short introduction to how this library can be used, not a duplication of existing Quickstarts.
-
-Consider adding:
-
-- Working with the Authentication API
+- Working with the Hello API
 	- Basic login
 	- Basic code exchange
 	- Authorize redirect
 	- Logout
-- Working with the Management API
-	- Perform a Client Credentials grant
-	- Get Users by page
-	- Get Clients by page
-	- Get Connections by page
-- Other common tasks
-- Security recommendations
-	- State validation
-	- ID token verification
 
 ## Contributing
 
 We appreciate feedback and contribution to this repo! Before you get started, please see the following:
 
-- [Auth0's general contribution guidelines](https://github.com/auth0/open-source-template/blob/master/GENERAL-CONTRIBUTING.md)
-- [Auth0's code of conduct guidelines](https://github.com/auth0/open-source-template/blob/master/CODE-OF-CONDUCT.md)
-- [This repo's contribution guide](CONTRIBUTING.md)
+- [General contribution guidelines](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/GENERAL-CONTRIBUTING.md)
+- [Code of conduct guidelines](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/CODE-OF-CONDUCT.md)
+- [Contribution guide](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/CONTRIBUTING.md)
 
 ## Support + Feedback
 
 Include information on how to get support. Consider adding:
 
-- Use [Issues](https://github.com/auth0/open-source-template/issues) for code-level support
-- Use [Community](https://community.auth0.com/) for usage, questions, specific cases
-- Link to other support forums and FAQs
+- Use [Issues](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/issues) for code-level support
+- Use [Community](https://gdsc.community.dev/university-of-bamenda/) for usage, questions, specific cases
 
 ## Vulnerability Reporting
 
-Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
-
-## What is Auth0?
-
-Auth0 helps you to easily:
-
-- implement authentication with multiple identity providers, including social (e.g., Google, Facebook, Microsoft, LinkedIn, GitHub, Twitter, etc), or enterprise (e.g., Windows Azure AD, Google Apps, Active Directory, ADFS, SAML, etc.)
-- log in users with username/password databases, passwordless, or multi-factor authentication
-- link multiple user accounts together
-- generate signed JSON Web Tokens to authorize your API calls and flow the user identity securely
-- access demographics and analytics detailing how, when, and where users are logging in
-- enrich user profiles from other data sources using customizable JavaScript rules
-
-[Why Auth0?](https://auth0.com/why-auth0)
-
-## Thank You! (optional)
-
-Information on the dependencies used, if desired.
+Please do not report security vulnerabilities on the public GitHub issue tracker. 
 
 ## License
 
-Link to [LICENSE](LICENSE) doc. Typically MIT but can be different for a specific platform.
+Link to [LICENSE](LICENSE) doc.

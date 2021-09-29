@@ -30,8 +30,6 @@ Make sure this is updated based on the sections included:
 - [Contributing](#contributing)
 - [Support + Feedback](#support--feedback)
 - [Vulnerability Reporting](#vulnerability-reporting)
-- [Thank You](#thank-you)
-- [What is Auth0](#what-is-auth0)
 - [License](#license)
 
 ## Documentation
@@ -65,10 +63,8 @@ Application will run by default on port `8080`
 ## Getting Started
 
 - Working with the Hello API
-	- Basic login
-	- Basic code exchange
-	- Authorize redirect
-	- Logout
+	- Basic Hello World
+	- Hello {username}
 
 ## Contributing
 
